@@ -16,10 +16,7 @@ create table clan(
     kucni_broj varchar(10),
     grad varchar(30),
     drzava varchar(30),
-    kategorija int,
-    clanarina boolean default true,
-    PBmala time,
-    PBvelika time
+    kategorija int   
 );
 
 
